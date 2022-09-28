@@ -40,7 +40,7 @@ ___
 ## Next Steps
 At this point, you should have a fully working web application that interfaces with an API. Feel free to play around with the application and its code to get an idea of how it works.
 
-The rest of this section will provide some optional steps for your code.
+The rest of this section will provide some optional steps for your code. 
 
 ### Optional
 #### Linting Code

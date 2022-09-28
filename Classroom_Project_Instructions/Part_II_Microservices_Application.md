@@ -175,16 +175,16 @@ docker image prune --all
 # Run this command from the directory where you have the "docker-compose-build.yaml" file present
 docker-compose -f docker-compose-build.yaml build --parallel
 ```
->**Note**: YAML files are extremely indentation sensitive, that's why we have attached the files for you. 
+>**Note**: YAML files are extremely  indentation sensitive, that's why we have attached the files for you. 
 
 
-3. **Run containers** using the images created in the step above. Create another YAML file, [docker-compose.yaml](https://video.udacity-data.com/topher/2021/July/60e28b91_docker-compose/docker-compose.yaml),  in the project's parent directory. It will use the existing images and create containers. While creating containers, it defines the port mapping, and the container dependency. 
+3. **Run containers** using the images created in the step above. Create another YAML file, [docker-compose.yaml](https://video.udacity-data.com/topher/2021/July/60e28b91_docker-compose/docker-compose.yaml),  in the project's parent directory. It will use the existing images and create containers. While creating containers, it defines the port mapping, and the container dependency.
 
  Once you have the YAML file above ready in your project directory, you can start the application using:
 ```bash
 docker-compose up
 ```
 
-4. Visit http://localhost:8100 in your web browser to verify that the application is running. 
+4. Visit http://localhost:8100 in your web browser to verify that the application is running.
 
 
